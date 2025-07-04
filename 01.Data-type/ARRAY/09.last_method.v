@@ -3,11 +3,11 @@ module tb;
   int res[$];
 
   initial begin
-    res = array.find_first_index(x) with (x > 4);
+    res = array.find_last(x) with (x > 3 && x < 5);
     $display ("X:%p",res);
-    $display ("Y:%p",array.find_first_index(y) with (y == 1));    
+    $display ("Y:%p",array.find_last(y) with (y == 1));    
   end
 endmodule
 
 // X:'{4}
-// Y:'{0}
+// Y:'{1}
