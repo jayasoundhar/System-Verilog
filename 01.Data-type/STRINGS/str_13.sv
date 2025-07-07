@@ -9,5 +9,4 @@ module str_12;
   end
 endmodule
 
-result
-# KERNEL: A and B are not equal
+// A and B are not equal
