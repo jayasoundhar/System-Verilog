@@ -5,4 +5,4 @@ module str_05;
   end
 endmodule
 
-// E
+// S
