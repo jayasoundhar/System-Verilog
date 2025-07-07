@@ -4,8 +4,7 @@ module str_17;
   string C="VERFICATION ";
   string D="ENGINEER ";
   initial begin
-    $display({5{A}},B,C,D);end
-              endmodule
+  $display({5{A}},B,C,D);end
+endmodule
 
-result
-# KERNEL: DESIGN DESIGN DESIGN DESIGN DESIGN AND VERFICATION ENGINEER
+// DESIGN DESIGN DESIGN DESIGN DESIGN AND VERFICATION ENGINEER
