@@ -9,5 +9,4 @@ module str_15;
   end
 endmodule
 
-result
-# KERNEL: A is not greater than B
+// A is not greater than B
