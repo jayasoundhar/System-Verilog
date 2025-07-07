@@ -8,5 +8,4 @@ module str_16;
   end 
 endmodule
 
-result
-# KERNEL: DESIGN	AND	VERIFICATION	ENGINEER	
+// DESIGN	AND	VERIFICATION	ENGINEER	
