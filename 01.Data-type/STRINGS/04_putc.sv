@@ -1,7 +1,8 @@
 module str_04;
   string A=("DESIGN_ENGINNER");
   initial begin
-    $display("A=%s",A.putc(5,"d"));
+    A.putc(5,"d");
+    $display("A=%s",A);
   end
 endmodule
 
