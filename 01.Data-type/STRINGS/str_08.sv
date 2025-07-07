@@ -1,9 +1,14 @@
 module str_8;
-  string A="fffac123";
+  string A="fa";
+  byte b;
   initial begin
-    $display("your expected output for str_8 is A=%h",A.atohex);
+    b = A.atohex;
+    $display("A=%h",A.atohex);
+    $display("A=%h",A);
+    $display("B=%h",b);
   end
 endmodule
 
-result
-# KERNEL: your expected output for str_8 is A=fffac123
+// A=000000fa
+// A=fa
+// B=fa
