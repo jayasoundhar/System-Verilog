@@ -14,3 +14,5 @@ endmodule
 
 
 //  a = 6 b = 0
+
+// randomize() is a predefined function to generate random variables which are declared as rand or randc..
