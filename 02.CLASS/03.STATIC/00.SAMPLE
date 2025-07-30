@@ -1,0 +1,20 @@
+Static Properties
+
+The class can have multiple instances, each instance of the class will be having its own copy of variables.
+Sometimes only one version of a variable is required to be shared by all instances. These class properties are created using the keyword static.
+-----------------------------------
+Syntax
+static <data_type> <property_name>;
+-----------------------------------
+
+Static Methods
+
+Static methods are the same as static properties,
+a static method can access only static properties of the class and access to the non-static properties is illegal and lead to a compilation error.
+Static methods cannot be virtual
+Note:
+Static class properties and methods can be used without creating an object of that type.
+------------------------------------
+Syntax
+static task/function <method_name>;
+------------------------------------
