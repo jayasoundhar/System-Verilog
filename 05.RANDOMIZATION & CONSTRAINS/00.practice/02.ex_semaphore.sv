@@ -1,4 +1,4 @@
-module semaphore_example;
+module semaphore_example1;
   semaphore d;
   initial begin
     d=new(6);
