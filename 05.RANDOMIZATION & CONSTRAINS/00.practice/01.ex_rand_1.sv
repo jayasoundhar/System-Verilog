@@ -1,4 +1,4 @@
-1class sample;
+class sample;
   
   rand int a;
   rand int b[4:0];
