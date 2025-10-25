@@ -1,4 +1,4 @@
-module enum_datatype;
+1module enum_datatype;
   
   enum { red = 0, green, blue = 6, yellow, white = 15, black } Colors;
  
