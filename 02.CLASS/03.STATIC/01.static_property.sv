@@ -1,4 +1,4 @@
-class static_property1;
+class static_property;
     byte a;  
     static byte b;
   
