@@ -1,4 +1,4 @@
-class random;
+class random1;
   rand bit[2:0] a;
   randc bit[2:0] b;
   
